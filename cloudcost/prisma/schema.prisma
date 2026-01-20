@@ -1,0 +1,75 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  uploads   Upload[]
+  insights  Insight[]
+  createdAt DateTime @default(now())
+}
+
+model Upload {
+  id         String       @id @default(uuid())
+  userId     String
+  user       User         @relation(fields: [userId], references: [id])
+  filename   String
+  status     UploadStatus @default(PENDING)
+  records    CostRecord[]
+  uploadedAt DateTime     @default(now())
+}
+
+model CostRecord {
+  id        String   @id @default(uuid())
+  uploadId  String
+  upload    Upload   @relation(fields: [uploadId], references: [id])
+  date      DateTime
+  service   String
+  region    String
+  usageType String
+  cost      Float
+}
+
+model AggregatedCost {
+  id          String        @id @default(uuid())
+  userId      String
+  date        DateTime
+  service     String?
+  region      String?
+  totalCost   Float
+  granularity Granularity
+}
+
+model Insight {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  type      InsightType
+  summary   String
+  metadata  Json
+  createdAt DateTime @default(now())
+}
+
+enum UploadStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+enum Granularity {
+  DAILY
+  MONTHLY
+}
+
+enum InsightType {
+  SPIKE
+  ANOMALY
+  OPTIMIZATION
+}
