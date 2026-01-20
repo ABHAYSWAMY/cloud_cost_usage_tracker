@@ -1,7 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
-import { parseAwsRow } from "@/services/csv/awsParser";
 import { parse } from "csv-parse/sync";
+import { parseAwsRow } from "@/services/csv/awsParser";
+import { parseGcpRow } from "@/services/csv/gcpParser";
+import { detectProvider } from "@/services/csv/detectProvider";
+import { parseAzureRow } from "@/services/csv/azureParser";
+
 
 export async function POST(req: NextRequest) {
   const formData = await req.formData();
@@ -55,7 +59,18 @@ export async function POST(req: NextRequest) {
     }
 
     // 6️⃣ Normalize rows (pure logic)
-    const normalized = records.map(parseAwsRow);
+    const provider = detectProvider(Object.keys(records[0]));
+
+const parser =
+  (provider === "AWS"
+    ? parseAwsRow
+    : provider === "GCP"
+    ? parseGcpRow
+    : parseAzureRow);
+
+const normalized = records.map(parser);
+
+
 
     // 7️⃣ Insert cost records
     await prisma.costRecord.createMany({
