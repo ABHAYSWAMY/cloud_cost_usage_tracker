@@ -5,11 +5,13 @@ import { parseAwsRow } from "@/services/csv/awsParser";
 import { parseGcpRow } from "@/services/csv/gcpParser";
 import { detectProvider } from "@/services/csv/detectProvider";
 import { parseAzureRow } from "@/services/csv/azureParser";
+import { getCurrentUser } from "@/lib/current-user";
 
 
 export async function POST(req: NextRequest) {
   const formData = await req.formData();
   const file = formData.get("file") as File | null;
+  const user = await getCurrentUser();
 
   // 1️⃣ Validate file
   if (!file) {
@@ -30,7 +32,7 @@ export async function POST(req: NextRequest) {
   // 2️⃣ Create Upload record
   const upload = await prisma.upload.create({
     data: {
-      userId: "32468f30-2702-48cb-b2ac-823378204146", // dev user
+      userId: user.id, // dev user
       filename: file.name,
       status: "PENDING",
     },
@@ -101,5 +103,16 @@ const normalized = records.map(parser);
       { status: 500 }
     );
   }
+}
+
+export async function GET() {
+  const user = await getCurrentUser();
+
+  const uploads = await prisma.upload.findMany({
+    where: { userId: user.id },
+    orderBy: { uploadedAt: "desc" },
+  });
+
+  return NextResponse.json(uploads);
 }
 

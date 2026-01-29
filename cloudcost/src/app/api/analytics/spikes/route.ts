@@ -1,10 +1,12 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
+import { getCurrentUser } from "@/lib/current-user";
 
 const SPIKE_THRESHOLD_PERCENT = 30;
 const DEV_USER_ID = "32468f30-2702-48cb-b2ac-823378204146";
 
 export async function GET() {
+  const user = await getCurrentUser();
   // 1️⃣ Fetch daily totals
   const daily = await prisma.costRecord.groupBy({
     by: ["date"],
@@ -19,7 +21,7 @@ export async function GET() {
   // 2️⃣ Fetch existing spike insights ONCE
   const existingInsights = await prisma.insight.findMany({
     where: {
-      userId: DEV_USER_ID,
+      userId: user.id,
       type: "SPIKE",
     },
     select: {

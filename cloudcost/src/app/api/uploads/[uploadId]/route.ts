@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
+import { getCurrentUser } from "@/lib/current-user";
 
 const DEV_USER_ID = "32468f30-2702-48cb-b2ac-823378204146";
 
@@ -10,11 +11,13 @@ export async function DELETE(
   // ✅ FIX 1: await params
   const { uploadId } = await params;
 
+  const user = await getCurrentUser();
+
   // 1️⃣ Verify upload belongs to user
   const upload = await prisma.upload.findFirst({
     where: {
       id: uploadId,
-      userId: DEV_USER_ID,
+      userId: user.id,
     },
   });
 
