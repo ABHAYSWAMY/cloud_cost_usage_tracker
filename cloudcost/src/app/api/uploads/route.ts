@@ -61,7 +61,9 @@ export async function POST(req: NextRequest) {
     }
 
     // 6️⃣ Normalize rows (pure logic)
-    const provider = detectProvider(Object.keys(records[0]));
+    const firstRecord = records[0] as Record<string, unknown>;
+    const provider = detectProvider(Object.keys(firstRecord));
+
 
 const parser =
   (provider === "AWS"
