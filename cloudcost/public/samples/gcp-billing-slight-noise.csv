@@ -1,0 +1,739 @@
+usage_start_time,usage_end_time,project.id,project.name,service.description,sku.description,location.region,usage.amount,usage.unit,cost,currency
+2025-10-01T00:00:00,2025-10-02T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2801,units,2801,USD
+2025-10-01T00:00:00,2025-10-02T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2858,units,2858,USD
+2025-10-01T00:00:00,2025-10-02T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,724,units,724,USD
+2025-10-01T00:00:00,2025-10-02T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,711,units,711,USD
+2025-10-01T00:00:00,2025-10-02T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1283,units,1283,USD
+2025-10-01T00:00:00,2025-10-02T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1339,units,1339,USD
+2025-10-02T00:00:00,2025-10-03T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2747,units,2747,USD
+2025-10-02T00:00:00,2025-10-03T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2818,units,2818,USD
+2025-10-02T00:00:00,2025-10-03T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,699,units,699,USD
+2025-10-02T00:00:00,2025-10-03T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,672,units,672,USD
+2025-10-02T00:00:00,2025-10-03T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1277,units,1277,USD
+2025-10-02T00:00:00,2025-10-03T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1258,units,1258,USD
+2025-10-03T00:00:00,2025-10-04T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2748,units,2748,USD
+2025-10-03T00:00:00,2025-10-04T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2809,units,2809,USD
+2025-10-03T00:00:00,2025-10-04T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,702,units,702,USD
+2025-10-03T00:00:00,2025-10-04T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,695,units,695,USD
+2025-10-03T00:00:00,2025-10-04T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1281,units,1281,USD
+2025-10-03T00:00:00,2025-10-04T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1298,units,1298,USD
+2025-10-04T00:00:00,2025-10-05T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2764,units,2764,USD
+2025-10-04T00:00:00,2025-10-05T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2852,units,2852,USD
+2025-10-04T00:00:00,2025-10-05T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,692,units,692,USD
+2025-10-04T00:00:00,2025-10-05T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,674,units,674,USD
+2025-10-04T00:00:00,2025-10-05T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1324,units,1324,USD
+2025-10-04T00:00:00,2025-10-05T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1249,units,1249,USD
+2025-10-05T00:00:00,2025-10-06T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2742,units,2742,USD
+2025-10-05T00:00:00,2025-10-06T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2762,units,2762,USD
+2025-10-05T00:00:00,2025-10-06T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,680,units,680,USD
+2025-10-05T00:00:00,2025-10-06T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,694,units,694,USD
+2025-10-05T00:00:00,2025-10-06T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1257,units,1257,USD
+2025-10-05T00:00:00,2025-10-06T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1305,units,1305,USD
+2025-10-06T00:00:00,2025-10-07T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2730,units,2730,USD
+2025-10-06T00:00:00,2025-10-07T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2792,units,2792,USD
+2025-10-06T00:00:00,2025-10-07T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,715,units,715,USD
+2025-10-06T00:00:00,2025-10-07T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,692,units,692,USD
+2025-10-06T00:00:00,2025-10-07T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1288,units,1288,USD
+2025-10-06T00:00:00,2025-10-07T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1265,units,1265,USD
+2025-10-07T00:00:00,2025-10-08T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2856,units,2856,USD
+2025-10-07T00:00:00,2025-10-08T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2771,units,2771,USD
+2025-10-07T00:00:00,2025-10-08T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,699,units,699,USD
+2025-10-07T00:00:00,2025-10-08T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,687,units,687,USD
+2025-10-07T00:00:00,2025-10-08T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1233,units,1233,USD
+2025-10-07T00:00:00,2025-10-08T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1334,units,1334,USD
+2025-10-08T00:00:00,2025-10-09T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2798,units,2798,USD
+2025-10-08T00:00:00,2025-10-09T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2854,units,2854,USD
+2025-10-08T00:00:00,2025-10-09T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,721,units,721,USD
+2025-10-08T00:00:00,2025-10-09T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,678,units,678,USD
+2025-10-08T00:00:00,2025-10-09T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1281,units,1281,USD
+2025-10-08T00:00:00,2025-10-09T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1352,units,1352,USD
+2025-10-09T00:00:00,2025-10-10T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2865,units,2865,USD
+2025-10-09T00:00:00,2025-10-10T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2811,units,2811,USD
+2025-10-09T00:00:00,2025-10-10T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,723,units,723,USD
+2025-10-09T00:00:00,2025-10-10T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,709,units,709,USD
+2025-10-09T00:00:00,2025-10-10T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1253,units,1253,USD
+2025-10-09T00:00:00,2025-10-10T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1323,units,1323,USD
+2025-10-10T00:00:00,2025-10-11T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2844,units,2844,USD
+2025-10-10T00:00:00,2025-10-11T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2824,units,2824,USD
+2025-10-10T00:00:00,2025-10-11T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,694,units,694,USD
+2025-10-10T00:00:00,2025-10-11T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,673,units,673,USD
+2025-10-10T00:00:00,2025-10-11T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1295,units,1295,USD
+2025-10-10T00:00:00,2025-10-11T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1346,units,1346,USD
+2025-10-11T00:00:00,2025-10-12T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2810,units,2810,USD
+2025-10-11T00:00:00,2025-10-12T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2833,units,2833,USD
+2025-10-11T00:00:00,2025-10-12T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,679,units,679,USD
+2025-10-11T00:00:00,2025-10-12T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,703,units,703,USD
+2025-10-11T00:00:00,2025-10-12T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1240,units,1240,USD
+2025-10-11T00:00:00,2025-10-12T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1248,units,1248,USD
+2025-10-12T00:00:00,2025-10-13T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2829,units,2829,USD
+2025-10-12T00:00:00,2025-10-13T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2862,units,2862,USD
+2025-10-12T00:00:00,2025-10-13T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,714,units,714,USD
+2025-10-12T00:00:00,2025-10-13T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,672,units,672,USD
+2025-10-12T00:00:00,2025-10-13T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1337,units,1337,USD
+2025-10-12T00:00:00,2025-10-13T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1331,units,1331,USD
+2025-10-13T00:00:00,2025-10-14T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2865,units,2865,USD
+2025-10-13T00:00:00,2025-10-14T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2860,units,2860,USD
+2025-10-13T00:00:00,2025-10-14T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,727,units,727,USD
+2025-10-13T00:00:00,2025-10-14T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,673,units,673,USD
+2025-10-13T00:00:00,2025-10-14T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1309,units,1309,USD
+2025-10-13T00:00:00,2025-10-14T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1287,units,1287,USD
+2025-10-14T00:00:00,2025-10-15T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2824,units,2824,USD
+2025-10-14T00:00:00,2025-10-15T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2759,units,2759,USD
+2025-10-14T00:00:00,2025-10-15T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,671,units,671,USD
+2025-10-14T00:00:00,2025-10-15T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,675,units,675,USD
+2025-10-14T00:00:00,2025-10-15T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1337,units,1337,USD
+2025-10-14T00:00:00,2025-10-15T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1317,units,1317,USD
+2025-10-15T00:00:00,2025-10-16T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2803,units,2803,USD
+2025-10-15T00:00:00,2025-10-16T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2791,units,2791,USD
+2025-10-15T00:00:00,2025-10-16T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,681,units,681,USD
+2025-10-15T00:00:00,2025-10-16T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,730,units,730,USD
+2025-10-15T00:00:00,2025-10-16T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1293,units,1293,USD
+2025-10-15T00:00:00,2025-10-16T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1336,units,1336,USD
+2025-10-16T00:00:00,2025-10-17T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2800,units,2800,USD
+2025-10-16T00:00:00,2025-10-17T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2748,units,2748,USD
+2025-10-16T00:00:00,2025-10-17T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,715,units,715,USD
+2025-10-16T00:00:00,2025-10-17T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,702,units,702,USD
+2025-10-16T00:00:00,2025-10-17T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1330,units,1330,USD
+2025-10-16T00:00:00,2025-10-17T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1277,units,1277,USD
+2025-10-17T00:00:00,2025-10-18T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2756,units,2756,USD
+2025-10-17T00:00:00,2025-10-18T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2815,units,2815,USD
+2025-10-17T00:00:00,2025-10-18T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,691,units,691,USD
+2025-10-17T00:00:00,2025-10-18T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,721,units,721,USD
+2025-10-17T00:00:00,2025-10-18T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1286,units,1286,USD
+2025-10-17T00:00:00,2025-10-18T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1350,units,1350,USD
+2025-10-18T00:00:00,2025-10-19T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2817,units,2817,USD
+2025-10-18T00:00:00,2025-10-19T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2820,units,2820,USD
+2025-10-18T00:00:00,2025-10-19T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,692,units,692,USD
+2025-10-18T00:00:00,2025-10-19T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,725,units,725,USD
+2025-10-18T00:00:00,2025-10-19T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1345,units,1345,USD
+2025-10-18T00:00:00,2025-10-19T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1295,units,1295,USD
+2025-10-19T00:00:00,2025-10-20T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2809,units,2809,USD
+2025-10-19T00:00:00,2025-10-20T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2799,units,2799,USD
+2025-10-19T00:00:00,2025-10-20T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,723,units,723,USD
+2025-10-19T00:00:00,2025-10-20T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,700,units,700,USD
+2025-10-19T00:00:00,2025-10-20T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1235,units,1235,USD
+2025-10-19T00:00:00,2025-10-20T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1255,units,1255,USD
+2025-10-20T00:00:00,2025-10-21T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2783,units,2783,USD
+2025-10-20T00:00:00,2025-10-21T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2827,units,2827,USD
+2025-10-20T00:00:00,2025-10-21T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,716,units,716,USD
+2025-10-20T00:00:00,2025-10-21T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,691,units,691,USD
+2025-10-20T00:00:00,2025-10-21T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1361,units,1361,USD
+2025-10-20T00:00:00,2025-10-21T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1300,units,1300,USD
+2025-10-21T00:00:00,2025-10-22T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2855,units,2855,USD
+2025-10-21T00:00:00,2025-10-22T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2773,units,2773,USD
+2025-10-21T00:00:00,2025-10-22T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,691,units,691,USD
+2025-10-21T00:00:00,2025-10-22T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,682,units,682,USD
+2025-10-21T00:00:00,2025-10-22T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1285,units,1285,USD
+2025-10-21T00:00:00,2025-10-22T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1339,units,1339,USD
+2025-10-22T00:00:00,2025-10-23T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2865,units,2865,USD
+2025-10-22T00:00:00,2025-10-23T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2803,units,2803,USD
+2025-10-22T00:00:00,2025-10-23T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,700,units,700,USD
+2025-10-22T00:00:00,2025-10-23T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,670,units,670,USD
+2025-10-22T00:00:00,2025-10-23T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1370,units,1370,USD
+2025-10-22T00:00:00,2025-10-23T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1311,units,1311,USD
+2025-10-23T00:00:00,2025-10-24T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2836,units,2836,USD
+2025-10-23T00:00:00,2025-10-24T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2835,units,2835,USD
+2025-10-23T00:00:00,2025-10-24T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,681,units,681,USD
+2025-10-23T00:00:00,2025-10-24T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,688,units,688,USD
+2025-10-23T00:00:00,2025-10-24T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1368,units,1368,USD
+2025-10-23T00:00:00,2025-10-24T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1298,units,1298,USD
+2025-10-24T00:00:00,2025-10-25T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2837,units,2837,USD
+2025-10-24T00:00:00,2025-10-25T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2867,units,2867,USD
+2025-10-24T00:00:00,2025-10-25T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,698,units,698,USD
+2025-10-24T00:00:00,2025-10-25T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,697,units,697,USD
+2025-10-24T00:00:00,2025-10-25T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1328,units,1328,USD
+2025-10-24T00:00:00,2025-10-25T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1263,units,1263,USD
+2025-10-25T00:00:00,2025-10-26T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2763,units,2763,USD
+2025-10-25T00:00:00,2025-10-26T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2818,units,2818,USD
+2025-10-25T00:00:00,2025-10-26T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,676,units,676,USD
+2025-10-25T00:00:00,2025-10-26T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,697,units,697,USD
+2025-10-25T00:00:00,2025-10-26T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1261,units,1261,USD
+2025-10-25T00:00:00,2025-10-26T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1302,units,1302,USD
+2025-10-26T00:00:00,2025-10-27T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2849,units,2849,USD
+2025-10-26T00:00:00,2025-10-27T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2798,units,2798,USD
+2025-10-26T00:00:00,2025-10-27T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,727,units,727,USD
+2025-10-26T00:00:00,2025-10-27T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,2708.0,units,2708.0,USD
+2025-10-26T00:00:00,2025-10-27T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1352,units,1352,USD
+2025-10-26T00:00:00,2025-10-27T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1271,units,1271,USD
+2025-10-27T00:00:00,2025-10-28T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2780,units,2780,USD
+2025-10-27T00:00:00,2025-10-28T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2747,units,2747,USD
+2025-10-27T00:00:00,2025-10-28T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,725,units,725,USD
+2025-10-27T00:00:00,2025-10-28T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,686,units,686,USD
+2025-10-27T00:00:00,2025-10-28T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1351,units,1351,USD
+2025-10-27T00:00:00,2025-10-28T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1243,units,1243,USD
+2025-10-28T00:00:00,2025-10-29T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2823,units,2823,USD
+2025-10-28T00:00:00,2025-10-29T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2854,units,2854,USD
+2025-10-28T00:00:00,2025-10-29T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,700,units,700,USD
+2025-10-28T00:00:00,2025-10-29T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,672,units,672,USD
+2025-10-28T00:00:00,2025-10-29T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,5272.0,units,5272.0,USD
+2025-10-28T00:00:00,2025-10-29T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1359,units,1359,USD
+2025-10-29T00:00:00,2025-10-30T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2770,units,2770,USD
+2025-10-29T00:00:00,2025-10-30T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2779,units,2779,USD
+2025-10-29T00:00:00,2025-10-30T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,728,units,728,USD
+2025-10-29T00:00:00,2025-10-30T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,712,units,712,USD
+2025-10-29T00:00:00,2025-10-30T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1274,units,1274,USD
+2025-10-29T00:00:00,2025-10-30T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1329,units,1329,USD
+2025-10-30T00:00:00,2025-10-31T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2842,units,2842,USD
+2025-10-30T00:00:00,2025-10-31T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2831,units,2831,USD
+2025-10-30T00:00:00,2025-10-31T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,697,units,697,USD
+2025-10-30T00:00:00,2025-10-31T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,692,units,692,USD
+2025-10-30T00:00:00,2025-10-31T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1261,units,1261,USD
+2025-10-30T00:00:00,2025-10-31T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1303,units,1303,USD
+2025-10-31T00:00:00,2025-11-01T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2850,units,2850,USD
+2025-10-31T00:00:00,2025-11-01T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2738,units,2738,USD
+2025-10-31T00:00:00,2025-11-01T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,684,units,684,USD
+2025-10-31T00:00:00,2025-11-01T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,699,units,699,USD
+2025-10-31T00:00:00,2025-11-01T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1321,units,1321,USD
+2025-10-31T00:00:00,2025-11-01T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1317,units,1317,USD
+2025-11-01T00:00:00,2025-11-02T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2821,units,2821,USD
+2025-11-01T00:00:00,2025-11-02T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2789,units,2789,USD
+2025-11-01T00:00:00,2025-11-02T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,724,units,724,USD
+2025-11-01T00:00:00,2025-11-02T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,697,units,697,USD
+2025-11-01T00:00:00,2025-11-02T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1282,units,1282,USD
+2025-11-01T00:00:00,2025-11-02T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1278,units,1278,USD
+2025-11-02T00:00:00,2025-11-03T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2835,units,2835,USD
+2025-11-02T00:00:00,2025-11-03T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2868,units,2868,USD
+2025-11-02T00:00:00,2025-11-03T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,691,units,691,USD
+2025-11-02T00:00:00,2025-11-03T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,717,units,717,USD
+2025-11-02T00:00:00,2025-11-03T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1356,units,1356,USD
+2025-11-02T00:00:00,2025-11-03T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1275,units,1275,USD
+2025-11-03T00:00:00,2025-11-04T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2830,units,2830,USD
+2025-11-03T00:00:00,2025-11-04T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2795,units,2795,USD
+2025-11-03T00:00:00,2025-11-04T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,684,units,684,USD
+2025-11-03T00:00:00,2025-11-04T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,687,units,687,USD
+2025-11-03T00:00:00,2025-11-04T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1353,units,1353,USD
+2025-11-03T00:00:00,2025-11-04T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1342,units,1342,USD
+2025-11-04T00:00:00,2025-11-05T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2761,units,2761,USD
+2025-11-04T00:00:00,2025-11-05T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2858,units,2858,USD
+2025-11-04T00:00:00,2025-11-05T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,725,units,725,USD
+2025-11-04T00:00:00,2025-11-05T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,675,units,675,USD
+2025-11-04T00:00:00,2025-11-05T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1250,units,1250,USD
+2025-11-04T00:00:00,2025-11-05T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1248,units,1248,USD
+2025-11-05T00:00:00,2025-11-06T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2768,units,2768,USD
+2025-11-05T00:00:00,2025-11-06T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2752,units,2752,USD
+2025-11-05T00:00:00,2025-11-06T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,725,units,725,USD
+2025-11-05T00:00:00,2025-11-06T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,710,units,710,USD
+2025-11-05T00:00:00,2025-11-06T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1247,units,1247,USD
+2025-11-05T00:00:00,2025-11-06T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1312,units,1312,USD
+2025-11-06T00:00:00,2025-11-07T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2804,units,2804,USD
+2025-11-06T00:00:00,2025-11-07T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2863,units,2863,USD
+2025-11-06T00:00:00,2025-11-07T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,691,units,691,USD
+2025-11-06T00:00:00,2025-11-07T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,716,units,716,USD
+2025-11-06T00:00:00,2025-11-07T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1297,units,1297,USD
+2025-11-06T00:00:00,2025-11-07T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1230,units,1230,USD
+2025-11-07T00:00:00,2025-11-08T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2798,units,2798,USD
+2025-11-07T00:00:00,2025-11-08T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2769,units,2769,USD
+2025-11-07T00:00:00,2025-11-08T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,676,units,676,USD
+2025-11-07T00:00:00,2025-11-08T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,722,units,722,USD
+2025-11-07T00:00:00,2025-11-08T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1250,units,1250,USD
+2025-11-07T00:00:00,2025-11-08T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1266,units,1266,USD
+2025-11-08T00:00:00,2025-11-09T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2817,units,2817,USD
+2025-11-08T00:00:00,2025-11-09T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2834,units,2834,USD
+2025-11-08T00:00:00,2025-11-09T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,719,units,719,USD
+2025-11-08T00:00:00,2025-11-09T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,712,units,712,USD
+2025-11-08T00:00:00,2025-11-09T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1300,units,1300,USD
+2025-11-08T00:00:00,2025-11-09T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1322,units,1322,USD
+2025-11-09T00:00:00,2025-11-10T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2749,units,2749,USD
+2025-11-09T00:00:00,2025-11-10T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2860,units,2860,USD
+2025-11-09T00:00:00,2025-11-10T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,680,units,680,USD
+2025-11-09T00:00:00,2025-11-10T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,708,units,708,USD
+2025-11-09T00:00:00,2025-11-10T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1332,units,1332,USD
+2025-11-09T00:00:00,2025-11-10T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1259,units,1259,USD
+2025-11-10T00:00:00,2025-11-11T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2768,units,2768,USD
+2025-11-10T00:00:00,2025-11-11T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2782,units,2782,USD
+2025-11-10T00:00:00,2025-11-11T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,706,units,706,USD
+2025-11-10T00:00:00,2025-11-11T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,683,units,683,USD
+2025-11-10T00:00:00,2025-11-11T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1351,units,1351,USD
+2025-11-10T00:00:00,2025-11-11T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1236,units,1236,USD
+2025-11-11T00:00:00,2025-11-12T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2745,units,2745,USD
+2025-11-11T00:00:00,2025-11-12T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2816,units,2816,USD
+2025-11-11T00:00:00,2025-11-12T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,705,units,705,USD
+2025-11-11T00:00:00,2025-11-12T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,680,units,680,USD
+2025-11-11T00:00:00,2025-11-12T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1281,units,1281,USD
+2025-11-11T00:00:00,2025-11-12T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1271,units,1271,USD
+2025-11-12T00:00:00,2025-11-13T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2834,units,2834,USD
+2025-11-12T00:00:00,2025-11-13T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2740,units,2740,USD
+2025-11-12T00:00:00,2025-11-13T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,725,units,725,USD
+2025-11-12T00:00:00,2025-11-13T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,676,units,676,USD
+2025-11-12T00:00:00,2025-11-13T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1365,units,1365,USD
+2025-11-12T00:00:00,2025-11-13T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1293,units,1293,USD
+2025-11-13T00:00:00,2025-11-14T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2765,units,2765,USD
+2025-11-13T00:00:00,2025-11-14T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2829,units,2829,USD
+2025-11-13T00:00:00,2025-11-14T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,700,units,700,USD
+2025-11-13T00:00:00,2025-11-14T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,721,units,721,USD
+2025-11-13T00:00:00,2025-11-14T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1313,units,1313,USD
+2025-11-13T00:00:00,2025-11-14T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1295,units,1295,USD
+2025-11-14T00:00:00,2025-11-15T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2772,units,2772,USD
+2025-11-14T00:00:00,2025-11-15T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2815,units,2815,USD
+2025-11-14T00:00:00,2025-11-15T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,718,units,718,USD
+2025-11-14T00:00:00,2025-11-15T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,711,units,711,USD
+2025-11-14T00:00:00,2025-11-15T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1299,units,1299,USD
+2025-11-14T00:00:00,2025-11-15T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1332,units,1332,USD
+2025-11-15T00:00:00,2025-11-16T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2833,units,2833,USD
+2025-11-15T00:00:00,2025-11-16T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2832,units,2832,USD
+2025-11-15T00:00:00,2025-11-16T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,695,units,695,USD
+2025-11-15T00:00:00,2025-11-16T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,729,units,729,USD
+2025-11-15T00:00:00,2025-11-16T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1288,units,1288,USD
+2025-11-15T00:00:00,2025-11-16T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1291,units,1291,USD
+2025-11-16T00:00:00,2025-11-17T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2846,units,2846,USD
+2025-11-16T00:00:00,2025-11-17T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2820,units,2820,USD
+2025-11-16T00:00:00,2025-11-17T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,679,units,679,USD
+2025-11-16T00:00:00,2025-11-17T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,687,units,687,USD
+2025-11-16T00:00:00,2025-11-17T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1239,units,1239,USD
+2025-11-16T00:00:00,2025-11-17T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1263,units,1263,USD
+2025-11-17T00:00:00,2025-11-18T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2852,units,2852,USD
+2025-11-17T00:00:00,2025-11-18T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2846,units,2846,USD
+2025-11-17T00:00:00,2025-11-18T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,695,units,695,USD
+2025-11-17T00:00:00,2025-11-18T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,700,units,700,USD
+2025-11-17T00:00:00,2025-11-18T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1369,units,1369,USD
+2025-11-17T00:00:00,2025-11-18T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1279,units,1279,USD
+2025-11-18T00:00:00,2025-11-19T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2840,units,2840,USD
+2025-11-18T00:00:00,2025-11-19T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2851,units,2851,USD
+2025-11-18T00:00:00,2025-11-19T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,716,units,716,USD
+2025-11-18T00:00:00,2025-11-19T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,695,units,695,USD
+2025-11-18T00:00:00,2025-11-19T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1292,units,1292,USD
+2025-11-18T00:00:00,2025-11-19T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1290,units,1290,USD
+2025-11-19T00:00:00,2025-11-20T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2732,units,2732,USD
+2025-11-19T00:00:00,2025-11-20T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2819,units,2819,USD
+2025-11-19T00:00:00,2025-11-20T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,700,units,700,USD
+2025-11-19T00:00:00,2025-11-20T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,721,units,721,USD
+2025-11-19T00:00:00,2025-11-20T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1323,units,1323,USD
+2025-11-19T00:00:00,2025-11-20T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1335,units,1335,USD
+2025-11-20T00:00:00,2025-11-21T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2749,units,2749,USD
+2025-11-20T00:00:00,2025-11-21T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2792,units,2792,USD
+2025-11-20T00:00:00,2025-11-21T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,700,units,700,USD
+2025-11-20T00:00:00,2025-11-21T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,705,units,705,USD
+2025-11-20T00:00:00,2025-11-21T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1368,units,1368,USD
+2025-11-20T00:00:00,2025-11-21T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1286,units,1286,USD
+2025-11-21T00:00:00,2025-11-22T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2818,units,2818,USD
+2025-11-21T00:00:00,2025-11-22T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2824,units,2824,USD
+2025-11-21T00:00:00,2025-11-22T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,680,units,680,USD
+2025-11-21T00:00:00,2025-11-22T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,726,units,726,USD
+2025-11-21T00:00:00,2025-11-22T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1309,units,1309,USD
+2025-11-21T00:00:00,2025-11-22T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1268,units,1268,USD
+2025-11-22T00:00:00,2025-11-23T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2858,units,2858,USD
+2025-11-22T00:00:00,2025-11-23T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2811,units,2811,USD
+2025-11-22T00:00:00,2025-11-23T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,686,units,686,USD
+2025-11-22T00:00:00,2025-11-23T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,691,units,691,USD
+2025-11-22T00:00:00,2025-11-23T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1268,units,1268,USD
+2025-11-22T00:00:00,2025-11-23T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1271,units,1271,USD
+2025-11-23T00:00:00,2025-11-24T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2780,units,2780,USD
+2025-11-23T00:00:00,2025-11-24T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2758,units,2758,USD
+2025-11-23T00:00:00,2025-11-24T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,690,units,690,USD
+2025-11-23T00:00:00,2025-11-24T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,725,units,725,USD
+2025-11-23T00:00:00,2025-11-24T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1264,units,1264,USD
+2025-11-23T00:00:00,2025-11-24T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1338,units,1338,USD
+2025-11-24T00:00:00,2025-11-25T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2817,units,2817,USD
+2025-11-24T00:00:00,2025-11-25T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2773,units,2773,USD
+2025-11-24T00:00:00,2025-11-25T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,703,units,703,USD
+2025-11-24T00:00:00,2025-11-25T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,722,units,722,USD
+2025-11-24T00:00:00,2025-11-25T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1288,units,1288,USD
+2025-11-24T00:00:00,2025-11-25T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1237,units,1237,USD
+2025-11-25T00:00:00,2025-11-26T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2852,units,2852,USD
+2025-11-25T00:00:00,2025-11-26T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2862,units,2862,USD
+2025-11-25T00:00:00,2025-11-26T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,701,units,701,USD
+2025-11-25T00:00:00,2025-11-26T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,711,units,711,USD
+2025-11-25T00:00:00,2025-11-26T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1279,units,1279,USD
+2025-11-25T00:00:00,2025-11-26T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1303,units,1303,USD
+2025-11-26T00:00:00,2025-11-27T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2774,units,2774,USD
+2025-11-26T00:00:00,2025-11-27T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2844,units,2844,USD
+2025-11-26T00:00:00,2025-11-27T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,723,units,723,USD
+2025-11-26T00:00:00,2025-11-27T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,695,units,695,USD
+2025-11-26T00:00:00,2025-11-27T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1265,units,1265,USD
+2025-11-26T00:00:00,2025-11-27T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1252,units,1252,USD
+2025-11-27T00:00:00,2025-11-28T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2766,units,2766,USD
+2025-11-27T00:00:00,2025-11-28T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2748,units,2748,USD
+2025-11-27T00:00:00,2025-11-28T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,688,units,688,USD
+2025-11-27T00:00:00,2025-11-28T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,713,units,713,USD
+2025-11-27T00:00:00,2025-11-28T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1247,units,1247,USD
+2025-11-27T00:00:00,2025-11-28T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1370,units,1370,USD
+2025-11-28T00:00:00,2025-11-29T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2825,units,2825,USD
+2025-11-28T00:00:00,2025-11-29T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2774,units,2774,USD
+2025-11-28T00:00:00,2025-11-29T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,723,units,723,USD
+2025-11-28T00:00:00,2025-11-29T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,2920.0,units,2920.0,USD
+2025-11-28T00:00:00,2025-11-29T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1236,units,1236,USD
+2025-11-28T00:00:00,2025-11-29T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1313,units,1313,USD
+2025-11-29T00:00:00,2025-11-30T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2869,units,2869,USD
+2025-11-29T00:00:00,2025-11-30T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2814,units,2814,USD
+2025-11-29T00:00:00,2025-11-30T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,718,units,718,USD
+2025-11-29T00:00:00,2025-11-30T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,710,units,710,USD
+2025-11-29T00:00:00,2025-11-30T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1265,units,1265,USD
+2025-11-29T00:00:00,2025-11-30T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1267,units,1267,USD
+2025-11-30T00:00:00,2025-12-01T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2829,units,2829,USD
+2025-11-30T00:00:00,2025-12-01T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2796,units,2796,USD
+2025-11-30T00:00:00,2025-12-01T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,693,units,693,USD
+2025-11-30T00:00:00,2025-12-01T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,708,units,708,USD
+2025-11-30T00:00:00,2025-12-01T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1329,units,1329,USD
+2025-11-30T00:00:00,2025-12-01T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1361,units,1361,USD
+2025-12-01T00:00:00,2025-12-02T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2841,units,2841,USD
+2025-12-01T00:00:00,2025-12-02T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2790,units,2790,USD
+2025-12-01T00:00:00,2025-12-02T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,679,units,679,USD
+2025-12-01T00:00:00,2025-12-02T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,725,units,725,USD
+2025-12-01T00:00:00,2025-12-02T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1299,units,1299,USD
+2025-12-01T00:00:00,2025-12-02T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1354,units,1354,USD
+2025-12-02T00:00:00,2025-12-03T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2767,units,2767,USD
+2025-12-02T00:00:00,2025-12-03T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2858,units,2858,USD
+2025-12-02T00:00:00,2025-12-03T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,721,units,721,USD
+2025-12-02T00:00:00,2025-12-03T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,704,units,704,USD
+2025-12-02T00:00:00,2025-12-03T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1334,units,1334,USD
+2025-12-02T00:00:00,2025-12-03T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1352,units,1352,USD
+2025-12-03T00:00:00,2025-12-04T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2751,units,2751,USD
+2025-12-03T00:00:00,2025-12-04T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2784,units,2784,USD
+2025-12-03T00:00:00,2025-12-04T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,725,units,725,USD
+2025-12-03T00:00:00,2025-12-04T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,2692.0,units,2692.0,USD
+2025-12-03T00:00:00,2025-12-04T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1365,units,1365,USD
+2025-12-03T00:00:00,2025-12-04T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1352,units,1352,USD
+2025-12-04T00:00:00,2025-12-05T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2807,units,2807,USD
+2025-12-04T00:00:00,2025-12-05T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2804,units,2804,USD
+2025-12-04T00:00:00,2025-12-05T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,715,units,715,USD
+2025-12-04T00:00:00,2025-12-05T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,714,units,714,USD
+2025-12-04T00:00:00,2025-12-05T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1319,units,1319,USD
+2025-12-04T00:00:00,2025-12-05T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1370,units,1370,USD
+2025-12-05T00:00:00,2025-12-06T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2823,units,2823,USD
+2025-12-05T00:00:00,2025-12-06T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2844,units,2844,USD
+2025-12-05T00:00:00,2025-12-06T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,699,units,699,USD
+2025-12-05T00:00:00,2025-12-06T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,694,units,694,USD
+2025-12-05T00:00:00,2025-12-06T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1358,units,1358,USD
+2025-12-05T00:00:00,2025-12-06T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1340,units,1340,USD
+2025-12-06T00:00:00,2025-12-07T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2739,units,2739,USD
+2025-12-06T00:00:00,2025-12-07T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2832,units,2832,USD
+2025-12-06T00:00:00,2025-12-07T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,704,units,704,USD
+2025-12-06T00:00:00,2025-12-07T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,701,units,701,USD
+2025-12-06T00:00:00,2025-12-07T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1269,units,1269,USD
+2025-12-06T00:00:00,2025-12-07T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1232,units,1232,USD
+2025-12-07T00:00:00,2025-12-08T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2868,units,2868,USD
+2025-12-07T00:00:00,2025-12-08T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2741,units,2741,USD
+2025-12-07T00:00:00,2025-12-08T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,691,units,691,USD
+2025-12-07T00:00:00,2025-12-08T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,690,units,690,USD
+2025-12-07T00:00:00,2025-12-08T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1254,units,1254,USD
+2025-12-07T00:00:00,2025-12-08T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1326,units,1326,USD
+2025-12-08T00:00:00,2025-12-09T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2748,units,2748,USD
+2025-12-08T00:00:00,2025-12-09T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2773,units,2773,USD
+2025-12-08T00:00:00,2025-12-09T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,694,units,694,USD
+2025-12-08T00:00:00,2025-12-09T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,727,units,727,USD
+2025-12-08T00:00:00,2025-12-09T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1305,units,1305,USD
+2025-12-08T00:00:00,2025-12-09T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1283,units,1283,USD
+2025-12-09T00:00:00,2025-12-10T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2834,units,2834,USD
+2025-12-09T00:00:00,2025-12-10T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2858,units,2858,USD
+2025-12-09T00:00:00,2025-12-10T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,718,units,718,USD
+2025-12-09T00:00:00,2025-12-10T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,711,units,711,USD
+2025-12-09T00:00:00,2025-12-10T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1366,units,1366,USD
+2025-12-09T00:00:00,2025-12-10T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1250,units,1250,USD
+2025-12-10T00:00:00,2025-12-11T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2774,units,2774,USD
+2025-12-10T00:00:00,2025-12-11T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2812,units,2812,USD
+2025-12-10T00:00:00,2025-12-11T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,678,units,678,USD
+2025-12-10T00:00:00,2025-12-11T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,690,units,690,USD
+2025-12-10T00:00:00,2025-12-11T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1352,units,1352,USD
+2025-12-10T00:00:00,2025-12-11T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1314,units,1314,USD
+2025-12-11T00:00:00,2025-12-12T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2756,units,2756,USD
+2025-12-11T00:00:00,2025-12-12T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2809,units,2809,USD
+2025-12-11T00:00:00,2025-12-12T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,687,units,687,USD
+2025-12-11T00:00:00,2025-12-12T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,692,units,692,USD
+2025-12-11T00:00:00,2025-12-12T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1343,units,1343,USD
+2025-12-11T00:00:00,2025-12-12T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1366,units,1366,USD
+2025-12-12T00:00:00,2025-12-13T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2746,units,2746,USD
+2025-12-12T00:00:00,2025-12-13T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2786,units,2786,USD
+2025-12-12T00:00:00,2025-12-13T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,672,units,672,USD
+2025-12-12T00:00:00,2025-12-13T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,690,units,690,USD
+2025-12-12T00:00:00,2025-12-13T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1280,units,1280,USD
+2025-12-12T00:00:00,2025-12-13T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1316,units,1316,USD
+2025-12-13T00:00:00,2025-12-14T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2770,units,2770,USD
+2025-12-13T00:00:00,2025-12-14T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2831,units,2831,USD
+2025-12-13T00:00:00,2025-12-14T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,685,units,685,USD
+2025-12-13T00:00:00,2025-12-14T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,685,units,685,USD
+2025-12-13T00:00:00,2025-12-14T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1295,units,1295,USD
+2025-12-13T00:00:00,2025-12-14T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1352,units,1352,USD
+2025-12-14T00:00:00,2025-12-15T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2819,units,2819,USD
+2025-12-14T00:00:00,2025-12-15T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2854,units,2854,USD
+2025-12-14T00:00:00,2025-12-15T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,671,units,671,USD
+2025-12-14T00:00:00,2025-12-15T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,696,units,696,USD
+2025-12-14T00:00:00,2025-12-15T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1341,units,1341,USD
+2025-12-14T00:00:00,2025-12-15T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1326,units,1326,USD
+2025-12-15T00:00:00,2025-12-16T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2806,units,2806,USD
+2025-12-15T00:00:00,2025-12-16T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2747,units,2747,USD
+2025-12-15T00:00:00,2025-12-16T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,717,units,717,USD
+2025-12-15T00:00:00,2025-12-16T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,727,units,727,USD
+2025-12-15T00:00:00,2025-12-16T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1280,units,1280,USD
+2025-12-15T00:00:00,2025-12-16T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1337,units,1337,USD
+2025-12-16T00:00:00,2025-12-17T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2733,units,2733,USD
+2025-12-16T00:00:00,2025-12-17T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2870,units,2870,USD
+2025-12-16T00:00:00,2025-12-17T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,672,units,672,USD
+2025-12-16T00:00:00,2025-12-17T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,703,units,703,USD
+2025-12-16T00:00:00,2025-12-17T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1309,units,1309,USD
+2025-12-16T00:00:00,2025-12-17T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1274,units,1274,USD
+2025-12-17T00:00:00,2025-12-18T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2742,units,2742,USD
+2025-12-17T00:00:00,2025-12-18T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2767,units,2767,USD
+2025-12-17T00:00:00,2025-12-18T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,718,units,718,USD
+2025-12-17T00:00:00,2025-12-18T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,687,units,687,USD
+2025-12-17T00:00:00,2025-12-18T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1353,units,1353,USD
+2025-12-17T00:00:00,2025-12-18T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1287,units,1287,USD
+2025-12-18T00:00:00,2025-12-19T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2782,units,2782,USD
+2025-12-18T00:00:00,2025-12-19T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2808,units,2808,USD
+2025-12-18T00:00:00,2025-12-19T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,723,units,723,USD
+2025-12-18T00:00:00,2025-12-19T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,717,units,717,USD
+2025-12-18T00:00:00,2025-12-19T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1264,units,1264,USD
+2025-12-18T00:00:00,2025-12-19T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1320,units,1320,USD
+2025-12-19T00:00:00,2025-12-20T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2766,units,2766,USD
+2025-12-19T00:00:00,2025-12-20T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2747,units,2747,USD
+2025-12-19T00:00:00,2025-12-20T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,678,units,678,USD
+2025-12-19T00:00:00,2025-12-20T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,715,units,715,USD
+2025-12-19T00:00:00,2025-12-20T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1235,units,1235,USD
+2025-12-19T00:00:00,2025-12-20T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1364,units,1364,USD
+2025-12-20T00:00:00,2025-12-21T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2860,units,2860,USD
+2025-12-20T00:00:00,2025-12-21T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2797,units,2797,USD
+2025-12-20T00:00:00,2025-12-21T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,703,units,703,USD
+2025-12-20T00:00:00,2025-12-21T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,685,units,685,USD
+2025-12-20T00:00:00,2025-12-21T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1329,units,1329,USD
+2025-12-20T00:00:00,2025-12-21T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1239,units,1239,USD
+2025-12-21T00:00:00,2025-12-22T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2743,units,2743,USD
+2025-12-21T00:00:00,2025-12-22T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2810,units,2810,USD
+2025-12-21T00:00:00,2025-12-22T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,703,units,703,USD
+2025-12-21T00:00:00,2025-12-22T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,717,units,717,USD
+2025-12-21T00:00:00,2025-12-22T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1332,units,1332,USD
+2025-12-21T00:00:00,2025-12-22T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1299,units,1299,USD
+2025-12-22T00:00:00,2025-12-23T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2837,units,2837,USD
+2025-12-22T00:00:00,2025-12-23T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2776,units,2776,USD
+2025-12-22T00:00:00,2025-12-23T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,698,units,698,USD
+2025-12-22T00:00:00,2025-12-23T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,699,units,699,USD
+2025-12-22T00:00:00,2025-12-23T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1235,units,1235,USD
+2025-12-22T00:00:00,2025-12-23T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1244,units,1244,USD
+2025-12-23T00:00:00,2025-12-24T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2839,units,2839,USD
+2025-12-23T00:00:00,2025-12-24T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2730,units,2730,USD
+2025-12-23T00:00:00,2025-12-24T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,691,units,691,USD
+2025-12-23T00:00:00,2025-12-24T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,677,units,677,USD
+2025-12-23T00:00:00,2025-12-24T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1283,units,1283,USD
+2025-12-23T00:00:00,2025-12-24T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1239,units,1239,USD
+2025-12-24T00:00:00,2025-12-25T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2783,units,2783,USD
+2025-12-24T00:00:00,2025-12-25T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2828,units,2828,USD
+2025-12-24T00:00:00,2025-12-25T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,698,units,698,USD
+2025-12-24T00:00:00,2025-12-25T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,728,units,728,USD
+2025-12-24T00:00:00,2025-12-25T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1351,units,1351,USD
+2025-12-24T00:00:00,2025-12-25T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1358,units,1358,USD
+2025-12-25T00:00:00,2025-12-26T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2765,units,2765,USD
+2025-12-25T00:00:00,2025-12-26T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2762,units,2762,USD
+2025-12-25T00:00:00,2025-12-26T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,701,units,701,USD
+2025-12-25T00:00:00,2025-12-26T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,726,units,726,USD
+2025-12-25T00:00:00,2025-12-26T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1368,units,1368,USD
+2025-12-25T00:00:00,2025-12-26T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1345,units,1345,USD
+2025-12-26T00:00:00,2025-12-27T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2785,units,2785,USD
+2025-12-26T00:00:00,2025-12-27T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2794,units,2794,USD
+2025-12-26T00:00:00,2025-12-27T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,694,units,694,USD
+2025-12-26T00:00:00,2025-12-27T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,722,units,722,USD
+2025-12-26T00:00:00,2025-12-27T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1275,units,1275,USD
+2025-12-26T00:00:00,2025-12-27T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1237,units,1237,USD
+2025-12-27T00:00:00,2025-12-28T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2862,units,2862,USD
+2025-12-27T00:00:00,2025-12-28T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2799,units,2799,USD
+2025-12-27T00:00:00,2025-12-28T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,673,units,673,USD
+2025-12-27T00:00:00,2025-12-28T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,671,units,671,USD
+2025-12-27T00:00:00,2025-12-28T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1331,units,1331,USD
+2025-12-27T00:00:00,2025-12-28T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1316,units,1316,USD
+2025-12-28T00:00:00,2025-12-29T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2735,units,2735,USD
+2025-12-28T00:00:00,2025-12-29T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2793,units,2793,USD
+2025-12-28T00:00:00,2025-12-29T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,686,units,686,USD
+2025-12-28T00:00:00,2025-12-29T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,700,units,700,USD
+2025-12-28T00:00:00,2025-12-29T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1323,units,1323,USD
+2025-12-28T00:00:00,2025-12-29T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1357,units,1357,USD
+2025-12-29T00:00:00,2025-12-30T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2805,units,2805,USD
+2025-12-29T00:00:00,2025-12-30T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2868,units,2868,USD
+2025-12-29T00:00:00,2025-12-30T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,724,units,724,USD
+2025-12-29T00:00:00,2025-12-30T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,674,units,674,USD
+2025-12-29T00:00:00,2025-12-30T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1274,units,1274,USD
+2025-12-29T00:00:00,2025-12-30T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1359,units,1359,USD
+2025-12-30T00:00:00,2025-12-31T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2747,units,2747,USD
+2025-12-30T00:00:00,2025-12-31T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2786,units,2786,USD
+2025-12-30T00:00:00,2025-12-31T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,726,units,726,USD
+2025-12-30T00:00:00,2025-12-31T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,717,units,717,USD
+2025-12-30T00:00:00,2025-12-31T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1326,units,1326,USD
+2025-12-30T00:00:00,2025-12-31T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1278,units,1278,USD
+2025-12-31T00:00:00,2026-01-01T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2745,units,2745,USD
+2025-12-31T00:00:00,2026-01-01T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2783,units,2783,USD
+2025-12-31T00:00:00,2026-01-01T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,720,units,720,USD
+2025-12-31T00:00:00,2026-01-01T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,673,units,673,USD
+2025-12-31T00:00:00,2026-01-01T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1232,units,1232,USD
+2025-12-31T00:00:00,2026-01-01T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1294,units,1294,USD
+2026-01-01T00:00:00,2026-01-02T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2738,units,2738,USD
+2026-01-01T00:00:00,2026-01-02T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2749,units,2749,USD
+2026-01-01T00:00:00,2026-01-02T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,708,units,708,USD
+2026-01-01T00:00:00,2026-01-02T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,688,units,688,USD
+2026-01-01T00:00:00,2026-01-02T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1307,units,1307,USD
+2026-01-01T00:00:00,2026-01-02T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1250,units,1250,USD
+2026-01-02T00:00:00,2026-01-03T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2773,units,2773,USD
+2026-01-02T00:00:00,2026-01-03T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2867,units,2867,USD
+2026-01-02T00:00:00,2026-01-03T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,695,units,695,USD
+2026-01-02T00:00:00,2026-01-03T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,729,units,729,USD
+2026-01-02T00:00:00,2026-01-03T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1301,units,1301,USD
+2026-01-02T00:00:00,2026-01-03T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1324,units,1324,USD
+2026-01-03T00:00:00,2026-01-04T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2748,units,2748,USD
+2026-01-03T00:00:00,2026-01-04T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2731,units,2731,USD
+2026-01-03T00:00:00,2026-01-04T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,675,units,675,USD
+2026-01-03T00:00:00,2026-01-04T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,718,units,718,USD
+2026-01-03T00:00:00,2026-01-04T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1319,units,1319,USD
+2026-01-03T00:00:00,2026-01-04T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1308,units,1308,USD
+2026-01-04T00:00:00,2026-01-05T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2825,units,2825,USD
+2026-01-04T00:00:00,2026-01-05T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2803,units,2803,USD
+2026-01-04T00:00:00,2026-01-05T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,685,units,685,USD
+2026-01-04T00:00:00,2026-01-05T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,699,units,699,USD
+2026-01-04T00:00:00,2026-01-05T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1329,units,1329,USD
+2026-01-04T00:00:00,2026-01-05T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1254,units,1254,USD
+2026-01-05T00:00:00,2026-01-06T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2816,units,2816,USD
+2026-01-05T00:00:00,2026-01-06T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2785,units,2785,USD
+2026-01-05T00:00:00,2026-01-06T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,713,units,713,USD
+2026-01-05T00:00:00,2026-01-06T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,705,units,705,USD
+2026-01-05T00:00:00,2026-01-06T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1239,units,1239,USD
+2026-01-05T00:00:00,2026-01-06T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1234,units,1234,USD
+2026-01-06T00:00:00,2026-01-07T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2810,units,2810,USD
+2026-01-06T00:00:00,2026-01-07T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2813,units,2813,USD
+2026-01-06T00:00:00,2026-01-07T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,684,units,684,USD
+2026-01-06T00:00:00,2026-01-07T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,704,units,704,USD
+2026-01-06T00:00:00,2026-01-07T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1246,units,1246,USD
+2026-01-06T00:00:00,2026-01-07T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1332,units,1332,USD
+2026-01-07T00:00:00,2026-01-08T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2838,units,2838,USD
+2026-01-07T00:00:00,2026-01-08T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2832,units,2832,USD
+2026-01-07T00:00:00,2026-01-08T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,726,units,726,USD
+2026-01-07T00:00:00,2026-01-08T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,708,units,708,USD
+2026-01-07T00:00:00,2026-01-08T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1327,units,1327,USD
+2026-01-07T00:00:00,2026-01-08T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1343,units,1343,USD
+2026-01-08T00:00:00,2026-01-09T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2816,units,2816,USD
+2026-01-08T00:00:00,2026-01-09T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2810,units,2810,USD
+2026-01-08T00:00:00,2026-01-09T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,724,units,724,USD
+2026-01-08T00:00:00,2026-01-09T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,716,units,716,USD
+2026-01-08T00:00:00,2026-01-09T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1304,units,1304,USD
+2026-01-08T00:00:00,2026-01-09T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1253,units,1253,USD
+2026-01-09T00:00:00,2026-01-10T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2820,units,2820,USD
+2026-01-09T00:00:00,2026-01-10T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2765,units,2765,USD
+2026-01-09T00:00:00,2026-01-10T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,730,units,730,USD
+2026-01-09T00:00:00,2026-01-10T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,696,units,696,USD
+2026-01-09T00:00:00,2026-01-10T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1238,units,1238,USD
+2026-01-09T00:00:00,2026-01-10T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1261,units,1261,USD
+2026-01-10T00:00:00,2026-01-11T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2784,units,2784,USD
+2026-01-10T00:00:00,2026-01-11T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2745,units,2745,USD
+2026-01-10T00:00:00,2026-01-11T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,714,units,714,USD
+2026-01-10T00:00:00,2026-01-11T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,672,units,672,USD
+2026-01-10T00:00:00,2026-01-11T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1275,units,1275,USD
+2026-01-10T00:00:00,2026-01-11T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1340,units,1340,USD
+2026-01-11T00:00:00,2026-01-12T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2842,units,2842,USD
+2026-01-11T00:00:00,2026-01-12T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2830,units,2830,USD
+2026-01-11T00:00:00,2026-01-12T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,727,units,727,USD
+2026-01-11T00:00:00,2026-01-12T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,706,units,706,USD
+2026-01-11T00:00:00,2026-01-12T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1324,units,1324,USD
+2026-01-11T00:00:00,2026-01-12T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1335,units,1335,USD
+2026-01-12T00:00:00,2026-01-13T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2832,units,2832,USD
+2026-01-12T00:00:00,2026-01-13T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2769,units,2769,USD
+2026-01-12T00:00:00,2026-01-13T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,704,units,704,USD
+2026-01-12T00:00:00,2026-01-13T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,676,units,676,USD
+2026-01-12T00:00:00,2026-01-13T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1294,units,1294,USD
+2026-01-12T00:00:00,2026-01-13T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1332,units,1332,USD
+2026-01-13T00:00:00,2026-01-14T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2790,units,2790,USD
+2026-01-13T00:00:00,2026-01-14T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2850,units,2850,USD
+2026-01-13T00:00:00,2026-01-14T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,676,units,676,USD
+2026-01-13T00:00:00,2026-01-14T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,691,units,691,USD
+2026-01-13T00:00:00,2026-01-14T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1272,units,1272,USD
+2026-01-13T00:00:00,2026-01-14T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1311,units,1311,USD
+2026-01-14T00:00:00,2026-01-15T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2742,units,2742,USD
+2026-01-14T00:00:00,2026-01-15T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2811,units,2811,USD
+2026-01-14T00:00:00,2026-01-15T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,690,units,690,USD
+2026-01-14T00:00:00,2026-01-15T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,713,units,713,USD
+2026-01-14T00:00:00,2026-01-15T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1342,units,1342,USD
+2026-01-14T00:00:00,2026-01-15T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1351,units,1351,USD
+2026-01-15T00:00:00,2026-01-16T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2819,units,2819,USD
+2026-01-15T00:00:00,2026-01-16T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2739,units,2739,USD
+2026-01-15T00:00:00,2026-01-16T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,717,units,717,USD
+2026-01-15T00:00:00,2026-01-16T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,720,units,720,USD
+2026-01-15T00:00:00,2026-01-16T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1324,units,1324,USD
+2026-01-15T00:00:00,2026-01-16T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1319,units,1319,USD
+2026-01-16T00:00:00,2026-01-17T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2796,units,2796,USD
+2026-01-16T00:00:00,2026-01-17T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2735,units,2735,USD
+2026-01-16T00:00:00,2026-01-17T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,712,units,712,USD
+2026-01-16T00:00:00,2026-01-17T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,719,units,719,USD
+2026-01-16T00:00:00,2026-01-17T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1354,units,1354,USD
+2026-01-16T00:00:00,2026-01-17T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1321,units,1321,USD
+2026-01-17T00:00:00,2026-01-18T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2816,units,2816,USD
+2026-01-17T00:00:00,2026-01-18T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2826,units,2826,USD
+2026-01-17T00:00:00,2026-01-18T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,690,units,690,USD
+2026-01-17T00:00:00,2026-01-18T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,677,units,677,USD
+2026-01-17T00:00:00,2026-01-18T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1240,units,1240,USD
+2026-01-17T00:00:00,2026-01-18T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1284,units,1284,USD
+2026-01-18T00:00:00,2026-01-19T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2864,units,2864,USD
+2026-01-18T00:00:00,2026-01-19T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2763,units,2763,USD
+2026-01-18T00:00:00,2026-01-19T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,687,units,687,USD
+2026-01-18T00:00:00,2026-01-19T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,707,units,707,USD
+2026-01-18T00:00:00,2026-01-19T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1325,units,1325,USD
+2026-01-18T00:00:00,2026-01-19T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1326,units,1326,USD
+2026-01-19T00:00:00,2026-01-20T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2735,units,2735,USD
+2026-01-19T00:00:00,2026-01-20T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2817,units,2817,USD
+2026-01-19T00:00:00,2026-01-20T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,700,units,700,USD
+2026-01-19T00:00:00,2026-01-20T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,726,units,726,USD
+2026-01-19T00:00:00,2026-01-20T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1241,units,1241,USD
+2026-01-19T00:00:00,2026-01-20T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1343,units,1343,USD
+2026-01-20T00:00:00,2026-01-21T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2742,units,2742,USD
+2026-01-20T00:00:00,2026-01-21T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2794,units,2794,USD
+2026-01-20T00:00:00,2026-01-21T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,702,units,702,USD
+2026-01-20T00:00:00,2026-01-21T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,673,units,673,USD
+2026-01-20T00:00:00,2026-01-21T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1263,units,1263,USD
+2026-01-20T00:00:00,2026-01-21T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1257,units,1257,USD
+2026-01-21T00:00:00,2026-01-22T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2851,units,2851,USD
+2026-01-21T00:00:00,2026-01-22T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2747,units,2747,USD
+2026-01-21T00:00:00,2026-01-22T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,694,units,694,USD
+2026-01-21T00:00:00,2026-01-22T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,705,units,705,USD
+2026-01-21T00:00:00,2026-01-22T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1347,units,1347,USD
+2026-01-21T00:00:00,2026-01-22T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1273,units,1273,USD
+2026-01-22T00:00:00,2026-01-23T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2748,units,2748,USD
+2026-01-22T00:00:00,2026-01-23T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2770,units,2770,USD
+2026-01-22T00:00:00,2026-01-23T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,684,units,684,USD
+2026-01-22T00:00:00,2026-01-23T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,679,units,679,USD
+2026-01-22T00:00:00,2026-01-23T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1349,units,1349,USD
+2026-01-22T00:00:00,2026-01-23T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1324,units,1324,USD
+2026-01-23T00:00:00,2026-01-24T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2816,units,2816,USD
+2026-01-23T00:00:00,2026-01-24T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2766,units,2766,USD
+2026-01-23T00:00:00,2026-01-24T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,682,units,682,USD
+2026-01-23T00:00:00,2026-01-24T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,689,units,689,USD
+2026-01-23T00:00:00,2026-01-24T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1293,units,1293,USD
+2026-01-23T00:00:00,2026-01-24T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1351,units,1351,USD
+2026-01-24T00:00:00,2026-01-25T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2816,units,2816,USD
+2026-01-24T00:00:00,2026-01-25T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2854,units,2854,USD
+2026-01-24T00:00:00,2026-01-25T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,698,units,698,USD
+2026-01-24T00:00:00,2026-01-25T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,682,units,682,USD
+2026-01-24T00:00:00,2026-01-25T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1241,units,1241,USD
+2026-01-24T00:00:00,2026-01-25T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1257,units,1257,USD
+2026-01-25T00:00:00,2026-01-26T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2852,units,2852,USD
+2026-01-25T00:00:00,2026-01-26T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2743,units,2743,USD
+2026-01-25T00:00:00,2026-01-26T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,697,units,697,USD
+2026-01-25T00:00:00,2026-01-26T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,695,units,695,USD
+2026-01-25T00:00:00,2026-01-26T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1244,units,1244,USD
+2026-01-25T00:00:00,2026-01-26T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1296,units,1296,USD
+2026-01-26T00:00:00,2026-01-27T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2804,units,2804,USD
+2026-01-26T00:00:00,2026-01-27T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2805,units,2805,USD
+2026-01-26T00:00:00,2026-01-27T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,725,units,725,USD
+2026-01-26T00:00:00,2026-01-27T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,719,units,719,USD
+2026-01-26T00:00:00,2026-01-27T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1344,units,1344,USD
+2026-01-26T00:00:00,2026-01-27T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1305,units,1305,USD
+2026-01-27T00:00:00,2026-01-28T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2842,units,2842,USD
+2026-01-27T00:00:00,2026-01-28T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2799,units,2799,USD
+2026-01-27T00:00:00,2026-01-28T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,695,units,695,USD
+2026-01-27T00:00:00,2026-01-28T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,713,units,713,USD
+2026-01-27T00:00:00,2026-01-28T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1246,units,1246,USD
+2026-01-27T00:00:00,2026-01-28T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1270,units,1270,USD
+2026-01-28T00:00:00,2026-01-29T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2840,units,2840,USD
+2026-01-28T00:00:00,2026-01-29T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2841,units,2841,USD
+2026-01-28T00:00:00,2026-01-29T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,705,units,705,USD
+2026-01-28T00:00:00,2026-01-29T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,670,units,670,USD
+2026-01-28T00:00:00,2026-01-29T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1363,units,1363,USD
+2026-01-28T00:00:00,2026-01-29T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1341,units,1341,USD
+2026-01-29T00:00:00,2026-01-30T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2822,units,2822,USD
+2026-01-29T00:00:00,2026-01-30T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2753,units,2753,USD
+2026-01-29T00:00:00,2026-01-30T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,712,units,712,USD
+2026-01-29T00:00:00,2026-01-30T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,725,units,725,USD
+2026-01-29T00:00:00,2026-01-30T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1348,units,1348,USD
+2026-01-29T00:00:00,2026-01-30T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1240,units,1240,USD
+2026-01-30T00:00:00,2026-01-31T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2756,units,2756,USD
+2026-01-30T00:00:00,2026-01-31T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2813,units,2813,USD
+2026-01-30T00:00:00,2026-01-31T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,681,units,681,USD
+2026-01-30T00:00:00,2026-01-31T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,714,units,714,USD
+2026-01-30T00:00:00,2026-01-31T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1357,units,1357,USD
+2026-01-30T00:00:00,2026-01-31T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1246,units,1246,USD
+2026-01-31T00:00:00,2026-02-01T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,asia-south1,2857,units,2857,USD
+2026-01-31T00:00:00,2026-02-01T00:00:00,proj-123,gcp-slight-noise,Compute Engine,N1 Standard,us-central1,2823,units,2823,USD
+2026-01-31T00:00:00,2026-02-01T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,asia-south1,691,units,691,USD
+2026-01-31T00:00:00,2026-02-01T00:00:00,proj-123,gcp-slight-noise,Cloud Storage,Standard Storage,us-central1,684,units,684,USD
+2026-01-31T00:00:00,2026-02-01T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,asia-south1,1307,units,1307,USD
+2026-01-31T00:00:00,2026-02-01T00:00:00,proj-123,gcp-slight-noise,BigQuery,Query Processing,us-central1,1354,units,1354,USD

@@ -24,7 +24,7 @@ export default async function DashboardLayout({
 
   return (
     <div className="flex min-h-screen bg-slate-50">
-      <aside className="w-64 border-r border-slate-200 bg-gradient-to-b from-slate-900 to-slate-800 shadow-lg">
+      <aside className="sticky top-0 h-screen w-64 border-r border-slate-200 bg-gradient-to-b from-slate-900 to-slate-800 shadow-lg">
         <div className="p-6">
           <h2 className="text-xl font-bold text-white tracking-tight">
             Cloud Cost
